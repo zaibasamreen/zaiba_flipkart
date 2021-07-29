@@ -1,0 +1,457 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root{
+    --primary-color:blue;
+    --secondary-color:white;
+    --tertiary-color:black;
+}
+.box{
+    width: 100vw;
+    height: 30vh;
+    background-color: blue;
+    color: white;
+    }
+    
+.flip{
+    display: flex;
+    justify-self: row;
+}
+.reorder{
+    margin-left: 20px;
+    padding-top: 40px;
+}
+.notify{
+    margin-left: 20vw;
+    padding-top: 40px;
+    
+
+}
+.cart{
+    padding-top: 40px;
+    margin-left: 4vw;
+
+
+}
+
+#search{
+    width: 90vw;
+    height: 50px;
+    color: gray;
+    background-color: beige;
+    border-width: 1px;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+.second{
+    width: 100vw;
+    flex-direction: row;
+    justify-self:flex-start;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+.viewlist{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 5px;
+    background-color: blue;
+}
+.offer{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.img1{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    
+}
+.img2{
+    width: 30px;
+    height: 30px;
+   margin-left: 5px;
+    
+   
+}
+.img4{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    
+    
+}
+.babycare{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+   
+}
+.grocery{
+    width:30px ;
+    height: 30px;
+    margin-left: 5px;
+   
+}
+.home{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    
+}
+.sports{
+    width: 30px;
+    height: 30px;
+     margin-left: 5px;
+}
+/* .mixer{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+} */
+.name{
+    display: flex;
+    justify-self: flex-start;
+    flex-direction: row;
+    font-size: 14px;
+    justify-content: space-between;
+}
+
+.all{
+    margin-left: 0;
+   }
+.off{
+    margin-left: 4px;
+
+}
+   
+.fas{
+margin-left: 2px;
+
+}
+.mob{
+    margin-left: 2px;
+    
+    }
+.tv{
+margin-left: 2x;
+}
+.bab{
+    margin-left: 8px;
+}
+
+
+.hello{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:lightsteelblue;
+}
+.purple{
+    width: 100vw;
+    height: 150px;
+}
+.furniture{
+    width: 50vw;
+    height: 230px;
+    padding-top: 5px;
+
+}
+.food{
+    width: 50vw;
+    height: 230px;
+    padding-top: 5px;
+}
+.veggie{
+    width: 50vw;
+    height: 150px;
+    padding-top: 5px;
+    padding-left: 5px;
+
+}
+
+.cloth{
+    width: 50vw;
+    height: 150px;
+    padding-top: 5px;
+    padding-left: 5px;
+    }
+.bed{
+    width: 100vw;
+    height: 200px;
+    padding-top: 2px;
+    background-color: lightsteelblue;
+}
+
+#rsbutton{
+    width: 100px;
+    height: 25px;
+    background-color:rgb(226, 138, 37);
+    border-radius: 10px;
+    margin-left: 30px;
+}
+ 
+.discounts{
+    width: 100vw;
+    background-color: navajowhite;
+}
+.you{
+ display: flex;
+ justify-self: row;
+ padding: 25px;
+
+}
+#view{
+    background-color: blue;
+    width: 90px;
+    height: 25px;
+    border-radius: 5px;
+    color:white;
+    
+    margin-left: 20vw;
+}
+.white{
+    display: flex;
+    justify-self: row;
+    flex-wrap: wrap;
+
+}
+.world{
+    
+    width: 50vw;
+    height: 150px;
+    }
+.face{
+    width: 50vw;
+    height: 150px;
+}
+.five{
+    display: flex;
+    columns: one;
+    background-color:navajowhite;
+}
+.deals{
+    padding-left: 15px;
+}
+.min{
+    margin-left: 100px;
+
+}
+
+
+.cycle{
+    width: 100vw;
+    flex-wrap: wrap;
+    display: flex;
+    justify-self: row;
+
+}
+.kids{
+    width: 30vw;
+    height: 150px;
+margin-top: 5px;
+margin-left: 5px;
+
+}
+.zaiba{
+    width: 30vw;
+    height: 150px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.mixer{
+    width: 30vw;
+    height:150px;
+    margin-top: 5px;
+    margin-left: 5px;
+
+}
+.item{
+    width: 100vw;
+    height: 50px;
+    padding-top: 5px;
+    background-color: rgba(173, 132, 132, 0.473);
+    display: flex;
+    justify-self: row;
+}
+#show{
+    width: 90px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    margin-left: 10vw;
+    border-radius: 5px;
+}
+
+
+@media (min-width:1024px) {
+    .notify{
+        margin-left: 65vw;
+    }
+    .cart{
+        margin-left: 5vw;
+
+    }
+    .viewlist{
+        width: 70px;
+        height: 70px;
+        border-radius: 20px;
+    }
+    .offer{
+        width: 70px;
+        height: 70px;
+        border-radius: 20px;
+    }
+    .img1{
+        width: 70px;
+        height: 70px;
+        border-radius: 20px;
+    }
+    .img2{
+        width: 70px;
+        height: 70px;
+        border-radius: 20px;
+    }
+    .img4{
+        width: 70px;
+        height: 70px;
+        border-radius: 20px;
+    
+    }
+     .babycare{
+         width: 70px;
+         height: 70px;
+         border-radius: 20px;
+     }
+     .grocery{
+         width: 70px;
+         height: 70px;
+         border-radius: 20px;
+     }
+     .home{
+         width: 70px;
+         height: 70px;
+         border-radius: 20px;
+     }
+     .sports{
+         width: 70px;
+         height: 70px;
+         border-radius: 20px;
+     }
+     .name{
+        font-size: 20px;
+     }
+     .hello{
+         
+         display:flex;
+         flex-wrap: wrap;
+         justify-self: row;
+         justify-content: space-between;
+        }
+     .purple{
+         width: 250px;
+         height: 200px;
+         padding-top: 5px;
+         padding-left: 5px;
+
+     }
+     .furniture{
+         width: 250px;
+         height: 200px;
+     }   
+     .food{
+         width: 250px;
+         height: 200px;
+     }
+     .veggie{
+         width: 250px;
+         height: 200px;
+
+     }
+     .cloth{
+         width: 250px;
+         height: 200px;
+     }
+     .block{
+         width: 100vw;
+         display: flex;
+         justify-self: row;
+         background-color:lightsteelblue;
+     }
+     .bed{
+         width: 650px;
+         height: 350px;
+         
+     }
+     .sheets{
+         padding-top: 80px;
+         padding-left: 40px;
+         font-size: 30px;
+
+     }
+     .you{
+         padding-left: 10vw;
+         font-size: 25px;
+     }
+#view{
+    width: 100px;
+    height: 30px;
+    margin-left: 50vw;
+}
+.white{
+    display: flex;
+    justify-self: row;
+    flex-wrap: wrap;
+
+}
+.world{
+    width: 30vw;
+    height: 300px;
+    margin-left: 10vw;
+}
+.face{
+width: 30vw;
+height: 300px;
+margin-left: 15vw;
+}
+.deals{
+    padding-left: 20vw;
+}
+.min{
+    margin-left: 35vw;
+}
+.cycle{
+    display: flex;
+    justify-self: row;
+    flex-wrap: wrap;
+}
+.kids{
+    width: 450px;
+    height: 250px;
+    margin-left:5px;
+}
+.zaiba{
+    width: 450px;
+    height: 250px;
+    margin-left: 5px;
+}
+.mixer{
+    width: 450px;
+    height:250px ;
+    margin-left: 5px;
+}
+#show{
+    margin-left: 50vw;
+}
+
+     }
+
+
